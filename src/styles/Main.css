@@ -1,0 +1,28 @@
+.bd {
+    width:894px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.basefix:after{
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.pro_list_recomm{ float:left; display:inline; width:280px; padding-bottom:10px; margin:0 8px;border:#F7F7F7 1px solid; border-bottom-color:#D6D6D6;}
+.pro_list_recomm:hover{ text-decoration:none; border:#cbcbcb 1px solid;box-shadow:1px 1px 4px #ccc}
+.pro_list_recomm img{ display:block; width:280px; height:200px;}
+.pro_list_recomm h3,.pro_list_recomm .summary{ padding:0 10px; overflow:hidden;}
+.pro_list_recomm h3{ font:18px/24px microsoft yahei; margin:8px 0 5px 0; height:24px; overflow:hidden;}
+.pro_list_recomm .summary{ color:#999; width:260px;height:40px; overflow:hidden}
+
+.arrow_l{ left:10px;}
+.arrow_r{ right:10px;}
+.arrow_l,.arrow_r{ position:absolute; top:50%; height:40px; width:40px; margin-top:-34px; background-color:#000; opacity:.3; transition:all 0.3s ease-in 0s; filter:alpha(opacity=30); 
+    background-image: url(//pic.c-ctrip.com/VacationOnlinePic/TicketHotel/un_sce_htl.png);
+    background-repeat: no-repeat;}
+.arrow_l:hover,.arrow_r:hover{ opacity:.8;filter:alpha(opacity=80); transition:all 0.8s ease-in 0s;}
+.arrow_l{ background-position:-158px -130px}
+.arrow_r{ background-position:-156px -240px}

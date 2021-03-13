@@ -1,0 +1,16 @@
+.product{
+    position: absolute;
+    top: 0%;
+    left:500px;
+}
+.sort{
+    position: absolute;
+    top: 7%;
+    left:550px;
+    text-align: center;
+}
+.picture{
+    position: absolute;
+    top: 13%; 
+    left:100px;
+}
